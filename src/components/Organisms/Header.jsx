@@ -5,12 +5,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 
 const Header = () => (
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand exact href="/">Payment Store</Navbar.Brand>
+  <Navbar.Brand exact href="/">Bank accounts</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="/customers">Customers</Nav.Link>
-      <Nav.Link href="/products">Products</Nav.Link>
+      <Nav.Link href="/products">Accounts</Nav.Link>
       <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
