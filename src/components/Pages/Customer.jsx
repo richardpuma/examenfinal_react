@@ -14,6 +14,7 @@ const Customer = () => (
       <Col md="auto">
         <br></br>
       <h3>Create customer</h3>
+      <br></br> 
           <Form>
             <Form.Group controlId="formBasicFirstName">
               <Form.Label>First name</Form.Label>

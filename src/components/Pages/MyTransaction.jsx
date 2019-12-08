@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-const Transaction = () => (
+const MyTransaction = () => (
 <Container>
     
     <Row className="justify-content-md-left">
@@ -11,7 +11,7 @@ const Transaction = () => (
      <Col xs lg="6">
        <Col md="auto">
          <br></br>
-          <h3>List Transactions</h3>
+          <h3>My Transactions</h3>
            
         </Col>
       </Col>
@@ -19,4 +19,4 @@ const Transaction = () => (
      </Container>
   )
 
-export default Transaction
+export default MyTransaction

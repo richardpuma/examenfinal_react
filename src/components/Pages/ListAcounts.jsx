@@ -15,16 +15,17 @@ const ListAcount = () => (
        <Col md="auto">
          <br></br>
        <h3>List Acount</h3>
+       <br></br> 
        <InputGroup className="mb-3">
-    <FormControl
-      placeholder="Name client"
-      aria-label="Recipient's username"
-      aria-describedby="basic-addon2"
-    />
-    <InputGroup.Append>
-      <Button variant="outline-success">Search</Button>
-    </InputGroup.Append>
-  </InputGroup>   
+          <FormControl
+            placeholder="Name client"
+            aria-label="Recipient's username"
+            aria-describedby="basic-addon2"
+          />
+          <InputGroup.Append>
+            <Button variant="outline-success">Search</Button>
+          </InputGroup.Append>
+        </InputGroup>   
         </Col>
       </Col>
      </Row>

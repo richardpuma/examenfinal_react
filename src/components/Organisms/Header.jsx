@@ -15,16 +15,16 @@ const Header = () => (
         <NavDropdown.Item href="listCustomer">List customers</NavDropdown.Item>
         <NavDropdown.Item href="">Block account</NavDropdown.Item>
         <NavDropdown.Item href="listAcount">List acount</NavDropdown.Item>
-        <NavDropdown.Item href="">List transactions</NavDropdown.Item>
+        <NavDropdown.Item href="transaction">List transactions</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="Options checker" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="">Deposit</NavDropdown.Item>
-        <NavDropdown.Item href="">Withdrawal</NavDropdown.Item>
+        <NavDropdown.Item href="deposit">Deposit</NavDropdown.Item>
+        <NavDropdown.Item href="withdrawal">Withdrawal</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="Options client" id="collasible-nav-dropdown">
         <NavDropdown.Item href="register">Register acount</NavDropdown.Item>
-        <NavDropdown.Item href="">Transfer money</NavDropdown.Item>
-        <NavDropdown.Item href="transaction">My transactions</NavDropdown.Item>
+        <NavDropdown.Item href="transferMoney">Transfer money</NavDropdown.Item>
+        <NavDropdown.Item href="myTransaction">My transactions</NavDropdown.Item>
       </NavDropdown>
     </Nav>
     <Nav>

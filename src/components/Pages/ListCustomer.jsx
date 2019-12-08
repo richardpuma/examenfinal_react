@@ -11,7 +11,7 @@ const ListCustomer = () => (
      <Col xs lg="6">
        <Col md="auto">
          <br></br>
-       <h3>List Customer</h3>
+         <h3>List Customer</h3>
            
         </Col>
       </Col>
