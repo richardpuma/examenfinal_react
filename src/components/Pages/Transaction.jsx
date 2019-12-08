@@ -11,7 +11,7 @@ const Transaction = () => (
      <Col xs lg="6">
        <Col md="auto">
          <br></br>
-       <h3>Transactions</h3>
+       <h3>My Transactions</h3>
            
         </Col>
       </Col>

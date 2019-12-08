@@ -21,8 +21,8 @@ const Register = () => (
             </Form.Group>
 
             <Form.Group controlId="formBasicBalance">
-              <Form.Label>Overdraft</Form.Label>
-              <Form.Control type="numeric" placeholder="0.00" required/>
+              <Form.Label>Overdraft limit</Form.Label>
+              <Form.Control type="number" placeholder="0.00" required/>
             </Form.Group>
           
             <Button variant="primary" type="submit">

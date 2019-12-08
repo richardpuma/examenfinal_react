@@ -10,15 +10,22 @@ const Header = () => (
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-    <NavDropdown title="Customers" id="collasible-nav-dropdown">
+      <NavDropdown title="Options admin" id="collasible-nav-dropdown">
         <NavDropdown.Item href="customer">Register customer</NavDropdown.Item>
         <NavDropdown.Item href="listCustomer">List customers</NavDropdown.Item>
+        <NavDropdown.Item href="">Block account</NavDropdown.Item>
+        <NavDropdown.Item href="listAcount">List acount</NavDropdown.Item>
+        <NavDropdown.Item href="">List transactions</NavDropdown.Item>
       </NavDropdown>
-      <NavDropdown title="Acounts" id="collasible-nav-dropdown">
+      <NavDropdown title="Options checker" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="">Deposit</NavDropdown.Item>
+        <NavDropdown.Item href="">Withdrawal</NavDropdown.Item>
+      </NavDropdown>
+      <NavDropdown title="Options client" id="collasible-nav-dropdown">
         <NavDropdown.Item href="register">Register acount</NavDropdown.Item>
-        <NavDropdown.Item href="listAcount">List acounts</NavDropdown.Item>
+        <NavDropdown.Item href="">Transfer money</NavDropdown.Item>
+        <NavDropdown.Item href="transaction">My transactions</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="transaction">Transactions</Nav.Link>
     </Nav>
     <Nav>
       <Nav.Link href="#deets">More</Nav.Link>
