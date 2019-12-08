@@ -17,19 +17,9 @@ export const postReducer = (state = {}, action) => {
   return state
 }
 
-export const ProductReducer = (state = {}, action) => {
+export const productReducer = (state = {}, action) => {
   if (action.type === GET_ALL_PRODUCTS) {
-    return {
-      ...state,
-      products: action.products
-    }
-  }
-
-  if (action.type === GET_PRODUCT) {
-    return {
-      ...state,
-      product: action.product
-    }
+    return action.products    
   }
   return state
 }

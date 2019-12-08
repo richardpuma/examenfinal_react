@@ -15,7 +15,7 @@ export const getAllPosts = () => dispatch => {
 }
 
 export const getAllProducts = () => dispatch => { 
-  Axios.get(`${API_URL}/products`)
+  Axios.get(`https://jsonplaceholder.typicode.com/posts`)
   .then(resp=>{
       return dispatch({
         type: GET_ALL_PRODUCTS,

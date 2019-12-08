@@ -25,20 +25,20 @@ const App=()=>(
     <Switch>
       <Protected path="/" exact component={Home} />      
 
-      <Public path="/customer" exact component={Customer} />
+      <Public path="/customer"  component={Customer} />
       <Public path="/listCustomer" component={ListCustomer} />
       <Public path="/blockAcount" component={BlockAcount} />
       <Public path="/listAcount" component={ListAcount} />
       <Public path="/transaction" component={Transaction} />
       
-      <Public path="/deposit" exact component={Deposit} />
-      <Public path="/withdrawal" exact component={Withdrawal} />
+      <Public path="/deposit"  component={Deposit} />
+      <Public path="/withdrawal"  component={Withdrawal} />
 
-      <Public path="/register" exact component={Register} />
-      <Public path="/transferMoney" exact component={TransferMoney} />
+      <Public path="/register"  component={Register} />
+      <Public path="/transferMoney"  component={TransferMoney} />
       <Public path="/myTransaction" component={MyTransaction} />
 
-      <Public path="/login" exact component={Login} />
+      <Public path="/login"  component={Login} />
       <Route component={Page404} />
     </Switch>
   </Router>
