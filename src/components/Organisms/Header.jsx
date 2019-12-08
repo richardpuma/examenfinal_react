@@ -10,15 +10,15 @@ const Header = () => (
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/customer">Customers</Nav.Link>
-      <Nav.Link href="/register">Acounts</Nav.Link>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+    <NavDropdown title="Customers" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="customer">Register customer</NavDropdown.Item>
+        <NavDropdown.Item href="listCustomer">List customers</NavDropdown.Item>
       </NavDropdown>
+      <NavDropdown title="Acounts" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="register">Register acount</NavDropdown.Item>
+        <NavDropdown.Item href="listAcount">List acounts</NavDropdown.Item>
+      </NavDropdown>
+      <Nav.Link href="transaction">Transactions</Nav.Link>
     </Nav>
     <Nav>
       <Nav.Link href="#deets">More</Nav.Link>
