@@ -21,13 +21,13 @@ const TransferMoney = () => (
             <Form.Label>Origin acount</Form.Label>
             <Dropdown>
               <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-              008535-1584755-2232321 / ACTIVA / S/.500
+              008535-1584755-2232321 / Active / 500
               </Dropdown.Toggle>
 
               <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">008535-1584755-2232322 / ACTIVA / S/.500</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">008535-1584755-2232323 / BLOQUEADA / S/.1500</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">008535-1584755-2232324 / ACTIVA / S/.5000</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">008535-1584755-2232322 / Active / 500</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">008535-1584755-2232323 / Blocked  / 1500</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">008535-1584755-2232324 / Active / 5000</Dropdown.Item>
               </Dropdown.Menu>
               </Dropdown>
           </Form.Group>
@@ -36,13 +36,13 @@ const TransferMoney = () => (
           <Form.Label>Destination acount</Form.Label>
           <Dropdown>
             <Dropdown.Toggle variant="secondary" id="dropdown-basic">
-            008535-1584755-2232321 / ACTIVA / S/.500
+            008535-1584755-2232321 / Active / 500
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">008535-1584755-2232322 / ACTIVA / S/.500</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">008535-1584755-2232323 / BLOQUEADA / S/.1500</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">008535-1584755-2232324 / ACTIVA / S/.5000</Dropdown.Item>
+                <Dropdown.Item href="#/action-1">008535-1584755-2232322 / Active / 500</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">008535-1584755-2232323 / Blocked / 1500</Dropdown.Item>
+                <Dropdown.Item href="#/action-3">008535-1584755-2232324 / Active / 5000</Dropdown.Item>
             </Dropdown.Menu>
             </Dropdown>
           </Form.Group>

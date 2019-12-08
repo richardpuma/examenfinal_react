@@ -13,7 +13,7 @@ const Header = () => (
       <NavDropdown title="Options admin" id="collasible-nav-dropdown">
         <NavDropdown.Item href="customer">Register customer</NavDropdown.Item>
         <NavDropdown.Item href="listCustomer">List customers</NavDropdown.Item>
-        <NavDropdown.Item href="">Block account</NavDropdown.Item>
+        <NavDropdown.Item href="blockAcount">Block account</NavDropdown.Item>
         <NavDropdown.Item href="listAcount">List acount</NavDropdown.Item>
         <NavDropdown.Item href="transaction">List transactions</NavDropdown.Item>
       </NavDropdown>

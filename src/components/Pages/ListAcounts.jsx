@@ -29,7 +29,27 @@ const ListAcount = () => (
         </Col>
       </Col>
      </Row>
-     </Container>
+    
+   <table className="table">
+    <thead>
+      <tr>
+        <th>Number acount</th>
+        <th>Balance</th>
+        <th>Overdraft Limit</th>
+        <th>State</th>
+        <th />
+      </tr>
+    </thead>
+    <tbody>
+
+
+
+
+
+
+    </tbody>
+  </table>
+  </Container>
   )
 
 export default ListAcount
