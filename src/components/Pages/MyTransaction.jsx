@@ -7,12 +7,16 @@ import { getAllProducts } from '../../redux/actionCreators'
 
 const MyTransaction = ({ match }) => {
 
-  
 
-  store.dispatch(getAllProducts())
+  //store.dispatch(getAllProducts())
+  useEffect(() => {
+    store.dispatch(getAllProducts())
+  }, [match])
+  console.log("dsad");
 
   return (
-    <>
+    
+  
     <Container>
 
       <Row className="justify-content-md-left">
@@ -46,7 +50,7 @@ const MyTransaction = ({ match }) => {
       </table>
 
     </Container>
-    </>
   )
+    
 }
 export default MyTransaction

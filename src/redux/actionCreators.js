@@ -15,7 +15,7 @@ export const getAllPosts = () => dispatch => {
 }
 
 export const getAllProducts = () => dispatch => { 
-  Axios.get(`https://jsonplaceholder.typicode.com/posts`)
+  Axios.post('http://localhost:8080/accounts',{headers:{"Access-Control-Allow-Origin": "*"}})
   .then(resp=>{
       return dispatch({
         type: GET_ALL_PRODUCTS,
